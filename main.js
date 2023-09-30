@@ -17,7 +17,8 @@
             e.preventDefault();
         if(this){
              Message.classList.remove('hidden');
-
+              const All = document.querySelector('.register-main-content');
+                 All.style.display = 'none';
         }
         else {
           Message.classList.add('hidden');
@@ -28,6 +29,8 @@
     const Dismiss = document.getElementById('dismiss');
     Dismiss.addEventListener('click',function  () {
       Message.classList.add('hidden');
+      const All = document.querySelector('.register-main-content');
+              All.style.display = 'none';
     })
       
     });
