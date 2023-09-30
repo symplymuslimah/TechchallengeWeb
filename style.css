@@ -845,7 +845,7 @@ form {
         width:320px;
         height:auto;  
     }
- .image-container p{ font-size:0.7rem;
+ .image-container p{ font-size:0.7rem;}
     #planet {
         width:75%;
         height:75%;
@@ -886,7 +886,7 @@ form {
     .partner-sponsor-content p {
        padding:1.5rem;
     }
-    .timeline-heading h2 {
+    .timeline-heading p {
      padding:1.2rem;
     }
 
