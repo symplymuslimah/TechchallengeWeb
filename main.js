@@ -30,7 +30,7 @@
     Dismiss.addEventListener('click',function  () {
       Message.classList.add('hidden');
       const All = document.querySelector('.register-main-content');
-              All.style.display = 'none';
+              All.style.display = 'block';
     })
       
     });
