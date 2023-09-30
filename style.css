@@ -752,7 +752,7 @@ form {
         align-items:flex-start;
         flex-direction: column;
         justify-content:center;
-        margin-left:2.6rem;
+        margin-left:2.4rem;
     }
     /* contact section page media query */
     
@@ -817,9 +817,9 @@ form {
 }
 .nav-bar{
     position: absolute;
-    top:100px;
+    top:90px;
     left:0;
-   width:50vw;
+   width:70vw;
     height:0; 
     background-color:var(--main-background);
     z-index:999;
