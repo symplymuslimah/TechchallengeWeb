@@ -752,7 +752,7 @@ form {
         align-items:flex-start;
         flex-direction: column;
         justify-content:center;
-        margin-left:3rem;
+        margin-left:2.6rem;
     }
     /* contact section page media query */
     
@@ -807,8 +807,8 @@ form {
     top:5%;
     border:1px solid var(--deep-bg);
     border-radius:50%;
-    padding:7px;
-    font-size: 1.5rem;
+    padding:5px;
+    font-size: 1.6rem;
 }
 .icon-nav {
     display:block;
@@ -817,9 +817,9 @@ form {
 }
 .nav-bar{
     position: absolute;
-    top: 80px;
+    top:100px;
     left:0;
-   width:50vw;
+   width:100vw;
     height:0; 
     background-color:var(--main-background);
     z-index:999;
@@ -845,6 +845,7 @@ form {
         width:320px;
         height:auto;  
     }
+ .image-container p{ font-size:0.7rem;
     #planet {
         width:75%;
         height:75%;
@@ -885,6 +886,11 @@ form {
     .partner-sponsor-content p {
        padding:1.5rem;
     }
+    .timeline-heading h2 {
+     padding:1.2rem;
+    }
+
+        
     .privacy1 {
         width:320px;
         height: auto;
