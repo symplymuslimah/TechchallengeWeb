@@ -456,6 +456,11 @@ footer {
     color: var(--font-color-main);
     padding:0px 6px;
 }
+.footer-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .footer-content3 p {
     font-size: 0.8rem;
     line-height:15px;
@@ -753,6 +758,7 @@ form {
         flex-direction: column;
         justify-content:center;
         margin-left:2.4rem;
+        margin-right:1.5rem;
     }
     /* contact section page media query */
     
@@ -774,11 +780,15 @@ form {
                   display: none;
     }
     .contact-account span {
-        display: block;
+        display:flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
     .socials {
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 100%;
     }
     .main-content2 {
@@ -805,8 +815,6 @@ form {
     position: absolute;
     right:10%;
     top:5%;
-    border:1px solid var(--deep-bg);
-    border-radius:50%;
     padding:5px;
     font-size: 1.6rem;
 }
